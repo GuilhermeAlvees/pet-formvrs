@@ -1,0 +1,48 @@
+body {
+    background-color: #7c8046;
+    color: #ffba7c;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+div#blocogeral{
+    border-radius: 15px;
+    background-color: #f5e7cc;
+    color: #82914c;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+    font-family: 'Georgia';
+    font-size: 17px;
+}
+
+input.bloco1{
+    border-radius: 3px;
+    border-color: #f5e7cc;
+}
+
+input.bloco2{
+    border-radius: 3px;
+    border-color: #f5e7cc;
+}
+
+button#botao{
+    background-color: #006800;
+    color: #f5e7cc;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #f5e7cc;
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+div#rodape{
+    background-color: #82914c;
+    color: #f5e7cc;
+    padding: 8px;
+    border-radius: 15px;
+}

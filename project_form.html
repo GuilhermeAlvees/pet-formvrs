@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat&Dog</title>
+</head>
+    <link href="project_form.css" rel="stylesheet">
+<body>
+<script type="text/javascript" src="project_form.js"></script>
+
+    <h1>Cat&Dog</h1>
+    <form>
+<div id="blocogeral">  
+<div>        
+
+    <h2>Informações do Responsável</h2>
+        Nome completo:
+        <input class="bloco1" type="text"><br><br>
+        Data de nascimento:
+        <input class="bloco1" type="date"><br><br>
+        Email:
+        <input class="bloco1" type="email"><br><br>
+        CEP:
+        <input class="bloco1" type="url"><br><br>
+        Contato/Whatsapp: 
+        <input class="bloco1" type="tel"><br><br>
+
+</div>
+    <hr>
+<div>
+
+    <h2>Informações do Pet</h2>
+        Nome do Pet:
+        <input class="bloco2" type="text"><br><br>
+        Idade:
+        <input class="bloco2" type="text"><br><br>
+        Sexo:
+        <br>
+        <input type="radio" name="sex" value="macho">Macho
+        <br>
+        <input type="radio" name="sex" value="femea">Fêmea
+        <br><br>
+        Porte(Tamanho):
+        <br>
+        <input type="radio" value="small">
+        Pequeno - entre 2Kg e 4Kg
+        <br>
+        <input type="radio" value="medium">
+        Médio - entre 5Kg e 7kg
+        <br>
+        <input type="radio" value="big">
+        Grande - mais 8Kg 
+
+</div>        
+    <hr id="blocodiv2">
+
+   <div> 
+    <h2>Serviços</h2>
+        <input type="radio" value="clinico">
+        Clínico Veterinário
+        <br>
+        <input type="radio" value="banho">
+        Banho
+        <br>
+        <input type="radio" value="tosa">
+        Tosa 
+        <br>
+        <input type="radio" value="banhoetosa">
+        Banho e Tosa 
+        <br>
+        <input type="radio" value="pethotel">
+        Pet Hotel
+        <br>
+        <input type="radio" value="internaçao">
+        Internação 
+        <br><br>
+        <select name="local">
+            <!--
+                Nesse tem que personalizar com JS
+                pra aparece 'localidade' de primeira 
+                opção
+            -->
+            <option value="asanorte">Asa Norte
+            <option value="gama">Gama
+            <option value="asasul">Asa Sul
+            <option value="guara">Guará
+            <option value="taguatinga">Taguatinga
+        </select>
+
+            <br><br>
+            <button id="botao">Agendar</button>
+            <br><br>
+    </div>
+
+    <div id="rodape">
+    <address> 
+        Santa Mary<br>
+        Rua Desenvolvedor Desempregado; 9<br>
+        Brasília, BRA<br>
+        Contato: +55 (61) 99247-8344
+    </address>
+    </div>
+</div>
+
+</body>
+</html>
